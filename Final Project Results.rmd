@@ -69,6 +69,15 @@ model4 <- lmer(DeepNumHour ~ steps * TotalNumHour + (1 | name), data = prelim_re
 summary(model4)
 ```
 
+Correlation Analysis: The Pearson correlation coefficient between steps and DeepNumHour is 0.0185- a very weak positive linear relationship. Correlation between TotalNumHour and DeepNumHour is 0.2267- likely a weak positive linear relationship.
+
+Multiple Linear Regression: coefficient for steps is 2.804e-06 with a p-value of 0.82 - relationship between steps and DeepNumHour is not statistically significant. R-squared value is 0.0003421- steps explains very little of the variance in DeepNumHour.
+
+ANOVA: F-statistic is 0.052 with a p-value of 0.82-  there is no significant difference in DeepNumHour across different levels of steps.
+
+Linear mixed-effects with interaction: The model includes interaction terms to see if the relationship between steps and DeepNumHour changes at different levels of TotalNumHour. The coefficients for steps, TotalNumHour, and their interaction are not statistically significant, meaning there is no significant relationship between these variables and DeepNumHour.
+
+------------------------------
 #Below is for poster graphing
 
 
@@ -191,4 +200,14 @@ ggplot(prelim_results, aes(x = steps, y = DeepNumHour)) +
   labs(title = "Correlation Between Deep Sleep Hours and Steps by Participant",
        x = "Steps",
        y = "Deep Sleep Hours") + theme_minimal()
+```
+```{r}
+# scatter plot with total sleep hours~step regression, faceted by participant
+ggplot(prelim_results, aes(x = steps, y = TotalNumHour)) +
+  geom_point(color = "blue", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "red", se = FALSE) +
+  facet_wrap(~ participant_id, scales = "free_y") +
+  labs(title = "Correlation Between Total Sleep Hours and Steps by Participant",
+       x = "Steps",
+       y = "Total Sleep Hours") + theme_minimal()
 ```
