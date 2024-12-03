@@ -190,6 +190,5 @@ ggplot(prelim_results, aes(x = steps, y = DeepNumHour)) +
   facet_wrap(~ participant_id, scales = "free_y") +
   labs(title = "Correlation Between Deep Sleep Hours and Steps by Participant",
        x = "Steps",
-       y = "Deep Sleep Hours") +
-  theme_minimal()
+       y = "Deep Sleep Hours") + theme_minimal()
 ```
