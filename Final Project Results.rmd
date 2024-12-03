@@ -1,0 +1,178 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(tidyverse)
+library(janitor)
+library(tidyr)
+```
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+system.time(prelim_results <- read.csv("12022100_results.csv", header = TRUE))
+
+prelim_results <- prelim_results %>%
+  clean_names()
+
+prelim_results[prelim_results == ""] <- NA
+
+colnames(prelim_results)
+head(prelim_results)
+```
+```{r}
+prelim_results <- prelim_results %>%
+  mutate(across(c(awake_hour, awake_min, rem_hour, rem_min, light_hour, light_min, deep_hour, deep_min), ~replace_na(., 0))) %>%
+  mutate(AwakeNumHour = awake_hour + (awake_min / 60)) %>%
+  relocate(AwakeNumHour, .after = awake_min) %>%
+  mutate(REMNumHour = rem_hour + (rem_min / 60)) %>%
+  relocate(REMNumHour, .after = rem_min) %>%
+  mutate(LightNumHour = light_hour + (light_min / 60)) %>%
+  relocate(LightNumHour, .after = light_min) %>%
+  mutate(DeepNumHour = deep_hour + (deep_min / 60)) %>%
+  relocate(DeepNumHour, .after = deep_min) %>%
+  mutate(TotalNumHour = AwakeNumHour + REMNumHour + LightNumHour + DeepNumHour) %>%
+  relocate(TotalNumHour, .after = DeepNumHour)
+```
+```{r}
+library(lme4)
+
+# fit the linear mixed-effects model
+model1 <- lmer(DeepNumHour ~ steps + (1 | name), data = prelim_results)
+
+summary(model1)
+```
+
+
+
+```{r}
+
+descriptive_stats <- prelim_results %>%
+  summarise(
+    Mean_Steps = mean(steps, na.rm = TRUE),
+    SD_Steps = sd(steps, na.rm = TRUE),
+    Min_Steps = min(steps, na.rm = TRUE),
+    Max_Steps = max(steps, na.rm = TRUE),
+    Mean_DeepNumHour = mean(DeepNumHour, na.rm = TRUE),
+    SD_DeepNumHour = sd(DeepNumHour, na.rm = TRUE),
+    Min_DeepNumHour = min(DeepNumHour, na.rm = TRUE),
+    Max_DeepNumHour = max(DeepNumHour, na.rm = TRUE)
+  )
+
+print(descriptive_stats)
+
+```
+```{r}
+group_stats <- prelim_results %>%
+  group_by(study_week) %>%
+  summarise(
+    Mean_Steps = mean(steps, na.rm = TRUE),
+    SD_Steps = sd(steps, na.rm = TRUE),
+    Mean_DeepNumHour = mean(DeepNumHour, na.rm = TRUE),
+    SD_DeepNumHour = sd(DeepNumHour, na.rm = TRUE),
+    Count = n()
+  )
+
+print(group_stats)
+
+```
+```{r}
+# histogram of Steps
+ggplot(prelim_results, aes(x = steps)) +
+  geom_histogram(binwidth = 1000, fill = "skyblue", color = "black") +
+  labs(title = "Distribution of Steps", x = "Number of Steps", y = "Frequency") +
+  theme_minimal()
+
+```
+```{r}
+# density plot- deep sleep hours
+ggplot(prelim_results, aes(x = DeepNumHour)) +
+  geom_density(fill = "skyblue") +
+  labs(title = "Density of Deep Sleep Hours", x = "Deep Sleep Hours", y = "Density") +
+  theme_minimal()
+
+ggplot(prelim_results, aes(x = REMNumHour)) +
+  geom_density(fill = "skyblue") +
+  labs(title = "Density of REM Sleep Hours", x = "REM Sleep Hours", y = "Density") +
+  theme_minimal()
+
+ggplot(prelim_results, aes(x = LightNumHour)) +
+  geom_density(fill = "skyblue") +
+  labs(title = "Density of Core/Light Sleep Hours", x = "Core/Light Sleep Hours", y = "Density") +
+  theme_minimal()
+
+ggplot(prelim_results, aes(x = AwakeNumHour)) +
+  geom_density(fill = "skyblue") +
+  labs(title = "Density of Awake Hours", x = "Awake Hours", y = "Density") +
+  theme_minimal()
+```
+```{r}
+prelim_results$Date <- as.Date(prelim_results$activity_sleep_date, format = "%m/%d/%y")
+
+# steps line plot
+participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jessica Chen", "DROP")
+prelim_results <- prelim_results %>%
+  filter(!name %in% participants_to_exclude)
+ggplot(prelim_results, aes(x = Date, y = steps, group = name, color = name)) +
+  geom_line() +
+  labs(title = "Steps Over Time by Participant",
+       x = "Date",
+       y = "Steps (in thousands)") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+```
+```{r}
+# Line Plot for Deep Sleep Hours Over Time
+ggplot(prelim_results, aes(x = Date, y = DeepNumHour, group = name, color = name)) +
+  geom_line() +
+  labs(title = "Deep Sleep Hours Over Time by Participant",
+       x = "Date",
+       y = "Deep Sleep Hours") +
+  theme_minimal() +
+  theme(legend.position = "right")
+
+```
+```{r}
+
+prelim_results <- prelim_results %>%
+  group_by(name) %>%
+  mutate(participant_id = cur_group_id()) %>%
+  ungroup()
+
+participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jessica Chen", "DROP")
+prelim_results <- prelim_results %>%
+  filter(!name %in% participants_to_exclude)
+
+# Steps faceted by participant
+ggplot(prelim_results, aes(x = Date, y = steps)) +
+  geom_line(color = "blue") +
+  facet_wrap(~ participant_id, scales = "free_y") +
+  labs(title = "Steps Over Time by Participant",
+       x = "Date",
+       y = "Steps (in thousands)") +
+  theme_minimal()
+
+# Deep sleep hours faceted by participant
+ggplot(prelim_results, aes(x = Date, y = DeepNumHour)) +
+  geom_line(color = "green") +
+  facet_wrap(~ participant_id, scales = "free_y") +
+  labs(title = "Deep Sleep Hours Over Time by Participant",
+       x = "Date",
+       y = "Deep Sleep Hours") +
+  theme_minimal()
+
+# scatter plot with deep sleep hours~step regression, faceted by participant
+ggplot(prelim_results, aes(x = steps, y = DeepNumHour)) +
+  geom_point(color = "blue", alpha = 0.5) +
+  geom_smooth(method = "lm", color = "red", se = FALSE) +
+  facet_wrap(~ participant_id, scales = "free_y") +
+  labs(title = "Correlation Between Deep Sleep Hours and Steps by Participant",
+       x = "Steps (in thousands)",
+       y = "Deep Sleep Hours") +
+  theme_minimal()
+```
