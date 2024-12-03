@@ -1,162 +1,162 @@
-recorded_date,response_id,name,activity_sleep_date,study_week,participant_treatment_week,treatment,age,gender,steps,sleep_duration_awake_hr,sleep_duration_awake_min,sleep_duration_rem_hr,sleep_duration_rem_min,sleep_duration_light_core_hr,sleep_duration_light_core_min,sleep_duration_deep_hr,sleep_duration_deep_hr,total_sleep_time,sleep_quality_rating,additional_info
-2024-11-19 11:31:44,R_1E4dmHGN59yaD7D,Iren Sunga,11/18/2024,1,1,1,26,M,13338,1,58,1,1,3,19,0,41,5hrs 1min,6,I took pre workout right before the gym which is equivalent to 1 cup of coffee.
-2024-11-19 11:36:48,R_7HTVl6Uotxffu7P,Aimee Manderlink,11/18/2024,1,1,1,28,F,11188,0,57,2,48,4,53,0,40,8 hrs 21 mins,5,
-2024-11-19 11:47:57,R_7hrQhmNoRjCNT6v,Anna Cheyette,11/18/2024,1,2,0,27,F,9585,,3,1,40,4,35,1,38,7h 53m,8,
-2024-11-19 12:15:24,R_1c8wmPctBeeJFmP,Maya Lawton,11/18/2024,1,1,1,25,F,7764,1,29,2,9,5,24,,39,"8 hours, 12 min",5,Woke up in the middle of the night and felt weird. 
-2024-11-19 12:40:08,R_6FhWrjQegh4Xp3I,Nick Manderlink,11/18/2024,1,2,0,28,M,351,0,33,0,44,5,48,2,11,8h 43m,7,
-2024-11-19 13:20:57,R_1xRaXGjYeTMJcz3,Irene Pang,11/18/2024,1,2,0,23,F,5012,0,,0,,3.5,,0.5,,4,3,I have an important meeting this morning so I felt stressed and it might result in an earlier wake up 
-2024-11-19 13:58:07,R_3lyo42Y9CNeRTog,Marie Warchol,11/18/2024,1,1,1,29,F,6791,0,27,0,32,6,15,1,44,8:31,9,
-2024-11-19 14:15:38,R_7IXwCWgS88nGzqT,Benjamin Xu,11/18/2024,1,2,0,23,M,8609,,25,2,15,2,15,1,45,6.25hr,8,
-2024-11-19 15:04:00,R_1hhl6rgC1QJzqvV,Chloe Hu,11/18/2024,1,2,0,22,F,6997,0,0,1,22,3,54,1,10,6.43 hours,7,
-2024-11-19 15:51:11,R_7kHW2vhLdSZxguK,Alyssa Pamintuan,11/18/2024,1,1,1,25,F,11802,1,2,1,34,4,2,1,,7,5,Stress (dog coughing throughout night)
-2024-11-19 16:05:39,R_7LbxAFlQeJsEsi3,Jason Pamintuan,11/18/2024,1,2,0,23,M,1508,,30,1,25,4,0,0,40,7 hours,6,N/a
-2024-11-19 18:03:49,R_5BwWMvjbnjpHXIE,Arnav Verma,11/18/2024,1,2,0,22,M,7882,1,42,1,49,4,48,0,38,7:49,7,had to wake up for meeting
-2024-11-19 19:33:22,R_7oWIvmBSxeUu8FG,Jessica Chen,11/17/2024,1,2,0,23,F,7524,,20,1,49,4,23,1,24,7hrs36mins,8,stress (approaching a deadline)
-2024-11-19 22:08:08,R_69H9aOep8s3Ecil,Clarissa Yang,11/18/2024,1,1,1,27,F,5250,0,0,0,55,4,35,2,27,8 hours,8,
-2024-11-20 6:28:01,R_1d7zzXsS7HobPOx,Winnie Xiao,11/19/2024,1,1,1,22,F,8613,0,,2,,2,,3,,7,4,
-2024-11-20 9:33:50,R_5du63YvCnDUbTZP,Iren Sunga,11/19/2024,1,1,1,26,M,10825,0,6,1,33,5,2,0,45,7hr 20min,8,Dogs did not wake me up this night and I had to sleep earlier since I had to wake up earlier to come on site.
-2024-11-20 11:16:45,R_6JCAB3YwSpybX4j,Alyssa Pamintuan,11/19/2024,1,1,1,25,F,8981,,17,1,59,5,53,,32,8hr 24min,5,"Dogs sleep with me, dogs chronic coughing wakes me up throughout night"
-2024-11-20 11:20:10,R_6pS7r3ZdJq2ConL,Jason Pamintuan,11/19/2024,1,2,0,23,M,5600,0,27,1,21,4,38,0,16,6 hours 15 mins,5,N/a
-2024-11-20 11:33:56,R_18ErNq59U6uuNJT,Zhigui Lee,11/19/2024,1,1,1,29,M,8775,0,0,0,49,4,36,1,21,6.5 hrs,4,
-2024-11-20 11:34:49,R_3fjwnsxZ9aitHhg,Marie Warchol,11/19/2024,1,1,1,29,F,9867,0,45,0,24,6,16,1,43,8:23,8,
-2024-11-20 11:36:41,R_3Ppr3WgfWdlrken,Aimee Manderlink,11/19/2024,1,1,1,28,F,4085,,12,1,43,5,8,0,54,7hrs 57mins,7,"severe wind storm, couldn’t run outside after work as usual "
-2024-11-20 12:20:36,R_7AUBF5qzYq0BUYh,Alex Hughes,11/19/2024,1,1,1,,M,5800,,36,1,32,5,3,1,48,8:23,8,
-2024-11-20 13:46:29,R_7096bdAheQeBJ6y,Chloe Hu,11/19/2024,1,2,0,22,F,3408,0,0,1,17,3,36,1,9,6 hours,7,
-2024-11-20 13:47:04,R_1nlPIsixkh2Plyp,Maya Lawton,11/19/2024,1,1,1,25,F,13542,,29,1,46,7,9,,42,"9 hours, 37 minutes",5,"I took a nap, and stress."
-2024-11-20 15:12:29,R_31Z5atXb9cP3bW1,Arnav Verma,11/19/2024,1,2,0,22,M,6822,3,7,0,28,1,31,0,54,2 hour 53 min,1,"tossed and turned today, had to wake up early for a work meeting"
-2024-11-20 17:40:32,R_6LhfvRSoiIefEHv,Anna Cheyette,11/19/2024,1,2,0,27,F,4180,,18,,38,6,23,,59,8 hours,3,Alcohol before bed (2 drinks)
-2024-11-20 17:59:53,R_3k5O0ANM0UKsrkt,Benjamin Xu,11/19/2024,1,2,0,23,M,3803,1,43,1,32,4,17,0,34,8h 6min,8,
-2024-11-20 19:31:35,R_6aAi0GQOrAgfEhb,Nick Manderlink,11/19/2024,1,2,0,28,M,2034,0,12,1,25,4,59,1,53,8h 17m,8,
-2024-11-21 10:00:26,R_6pFHQ4n4cZ0Q2ob,Winnie Xiao,11/20/2024,1,1,1,22,F,4011,,8,1,47,5,9,1,3,7hr 59min,8,
-2024-11-21 11:27:38,R_7zBYbhZY5IrL21i,Iren Sunga,11/20/2024,1,1,1,26,M,9242,0,27,1,38,4,,1,31,7hrs 9min,8,My dogs woke me up to pee at 4am.
-2024-11-21 11:51:26,R_5UWenfuPnD5Rptv,Irene Pang,11/19/2024,1,2,0,23,F,5,0.5,,1,,3,,0.5,,5,5,
-2024-11-21 11:52:44,R_7niOaOM8oX5cIyl,Anna Cheyette,11/20/2024,1,2,0,27,F,10659,,29,,48,5,30,1,19,7 hours 37 minutes,5,
-2024-11-21 11:53:04,R_70Htfp82lfR58ZJ,Irene Pang,11/20/2024,1,2,0,23,F,4420,0.5,,0.5,,3,,1,,5,4,I have an assignment due this morning 
-2024-11-21 11:55:28,R_6ftXvrxtETvlcuR,Alyssa Pamintuan,11/20/2024,1,1,1,25,F,7006,,5,1,19,2,56,,58,5hr 13min,3,"Stomach ache, Restless"
-2024-11-21 11:55:37,R_1suTUb7PP5i7ZFD,Nick Manderlink,11/20/2024,1,2,0,28,M,7103,0,24,1,29,5,19,1,26,8 h 14m,4,
-2024-11-21 12:02:41,R_5riewA5CmcsJCcd,Aimee Manderlink,11/20/2024,1,1,1,28,F,10216,0,17,1,5,5,24,1,0,7hrs 29mins,3,stress
-2024-11-21 12:37:58,R_6B3PhRYUya8AWeq,Chloe Hu,11/20/2024,1,2,0,22,F,3939,0,0,3,15,2,15,2,15,7.8hours,6,
-2024-11-21 12:57:54,R_7hGtLznA6vH6WDx,Jason Pamintuan,11/20/2024,1,2,0,23,M,4238,,12,1,44,4,51,,42,7H 17M,6,
-2024-11-21 13:04:16,R_3J7jo2E1BkUwvT3,Marie Warchol,11/20/2024,1,1,1,29,F,4640,0,40,0,24,6,9,1,34,8:07,8,"It was so rainy outside, so I didn't walk a lot :( "
-2024-11-21 13:37:14,R_1y79YU0vhQHkMhH,Alex Hughes,11/20/2024,1,1,1,,M,6000,0,40,0,56,5,9,1,33,7h 38m,5,"So. Much. Rain. And, I didn't get that many steps on this day, but I did climb at the gym for 45 minutes. Also, getting two validations is hard, but if I've uploaded a picture, do you need me to fill the box? "
-2024-11-21 13:47:12,R_6qfSK0TeErM6BF3,Benjamin Xu,11/20/2024,1,2,0,23,M,6169,1,15,1,0,4,5,1,10,7h 30 minutes,6,
-2024-11-21 19:28:03,R_3meYrczyBBQiLu0,Maya Lawton,11/20/2024,1,1,1,25,F,8555,,12,1,53,7,38,,21,9 hours and 52 minutes,3,"Stress, weather is gross outside."
-2024-11-22 11:06:55,R_7eYbd1TKP5eYZah,Alyssa Pamintuan,11/21/2024,1,1,1,25,F,9441,0,9,2,13,3,50,1,0,7h 3m,5,
-2024-11-22 11:15:19,R_5Sds8t1LMocYTXb,DROP,11/21/2024,1,#N/A,#N/A,#N/A,#N/A,234,,,,,,,,,,,
-2024-11-22 11:15:30,R_5oKH62jRPw9EJdD,Nick Manderlink,11/21/2024,1,2,0,28,M,8383,0,24,1,29,5,19,1,26,8h 14m,6,
-2024-11-22 11:28:12,R_7Wps2Fnrm4iNC7L,Maya Lawton,11/21/2024,1,1,1,25,F,14539,,43,,6,4,13,1,52,6 hours 11 minutes,1,I was drunky
-2024-11-22 11:44:50,R_7aWTKJ4Q6MScw5X,Jason Pamintuan,11/21/2024,1,2,0,23,M,3039,2,35,0,44,5,25,1,7,7h 16m,7,
-2024-11-22 12:14:44,R_6qQmH0dnFDpxFWU,Aimee Manderlink,11/21/2024,1,1,1,28,F,3314,0,0,1,49,4,42,1,40,8hrs 11 mins,7,"busy day, did not have time for exercise"
-2024-11-22 12:35:01,R_5ylNcr6hRHOt4Kx,DROP,11/20/2024,1,#N/A,#N/A,#N/A,#N/A,8,,,,,,,,,,,
-2024-11-22 12:45:15,R_7qE1KZXhdKYvUxu,Neal Hughes,11/21/2024,1,2,0,,M,5143,0,1,2,34,5,8,0,32,8 hr 14 min,8,
-2024-11-22 14:50:08,R_629MaWS6efaLroH,Marie Warchol,11/21/2024,1,1,1,29,F,5961,0,50,0,29,6,38,1,46,8:53,9,It was sooooo rainy again :( so I didn't go outside much
-2024-11-22 15:48:06,R_5CM8jNtiUrMJwo9,Irene Pang,11/21/2024,1,2,0,23,F,2174,,30,2,,3,,2,,7,7,
-2024-11-22 15:49:26,R_1MGbGPDIPtD0qws,Benjamin Xu,11/21/2024,1,2,0,23,M,7938,1,21,1,37,4,24,0,40,6h 40 m,7,
-2024-11-22 18:02:17,R_3il0tb7J7jjQI5X,Anna Cheyette,11/21/2024,1,2,0,27,F,9524,,19,1,33,6,40,,50,9h 3min,8,
-2024-11-22 23:24:47,R_7QGa6UYIePYRQvF,Iren Sunga,11/21/2024,1,1,1,26,M,10251,0,27,1,38,4,,1,31,7hr 9min,8,Dog woke me up at 4am.
-2024-11-23 6:21:05,R_6JK8NWcJLHv1VL0,Chloe Hu,11/22/2024,1,2,0,22,F,7733,,,3,48,1,16,1,31,6.6 hour,5,
-2024-11-23 16:09:41,R_3TLRElrkq2Kw6GJ,Arnav Verma,11/21/2024,1,2,0,22,M,7883,0,5,1,0,4,45,0,35,6h 20m,6,meeting early in the morning
-2024-11-23 16:14:54,R_7YcfbT2sR6LDshU,Arnav Verma,11/22/2024,1,2,0,22,M,8804,0,13,1,27,5,43,1,6,8:19,9,been to raves the last 2 days 
-2024-11-23 18:41:16,R_1TvmyhEcQuPWRkd,Benjamin Xu,11/22/2024,1,2,0,23,M,4875,1,25,1,30,4,30,1,,,7,
-2024-11-23 19:59:38,R_3kLJQMEvAScfZqp,Alyssa Pamintuan,11/22/2024,1,1,1,25,F,7159,,13,2,16,4,31,1,,8hr,6,
-2024-11-23 20:10:12,R_5R1QyHL7MxiKcOR,Jason Pamintuan,11/22/2024,1,2,0,23,M,1361,,32,,38,4,58,,34,6h 10m,4,
-2024-11-23 20:46:30,R_322RBA6Bh42du4i,Maya Lawton,11/22/2024,1,1,1,25,F,8230,,7,,28,5,58,1,15,7 hours and 41 min ,5,"Went to bed late, stayed inside all day because of bad weather."
-2024-11-23 21:39:09,R_5IzhxlubmNUzo7T,Aimee Manderlink,11/22/2024,1,1,1,28,F,12185,0,0,1,46,5,59,0,16,8hrs 1min,5,
-2024-11-23 22:43:53,R_1rGLRxbLHFx0UnG,Irene Pang,11/22/2024,1,2,0,23,F,2103,2,20,1,,2,,1,,,5,
-2024-11-23 23:39:37,R_1cRObOUd2rAVkk8,Winnie Xiao,11/21/2024,1,1,1,22,F,4516,,9,2,16,5,25,,59,7hr 59 min,8,
-2024-11-23 23:40:50,R_1qqMMZOnkiJabNa,Winnie Xiao,11/22/2024,1,1,1,22,F,4516,,10,2,44,5,40,,55,9hr 19 min,9,
-2024-11-24 10:59:44,R_3kENhXKRKDNYLVY,Teresa Xiong,11/23/2024,1,1,1,23,F,4035,,2,1,35,3,43,1,24,6h42min,5,N/A
-2024-11-24 11:59:24,R_7iRqufENqz8Iq9j,Chloe Hu,11/23/2024,1,2,0,22,F,13464,0,0,2,47,3,33,2,17,8.6 hours,8,
-2024-11-24 14:00:22,R_1do9szDzsXs5vuX,Iren Sunga,11/22/2024,1,1,1,26,M,5591,0,8,1,40,5,8,1,5,7hr 53min,8,I was unable to play pickleball or walk as normal due to rain.
-2024-11-24 14:01:58,R_7TNaFT4P1yG2gvz,Iren Sunga,11/23/2024,1,1,1,26,M,5708,1,17,1,20,4,45,0,34,9hr 18min,9,I was unable to play pickleball or walk my dogs due to rain.
-2024-11-24 15:45:16,R_7KvJM09iYVnJEvt,Marie Warchol,11/22/2024,1,1,1,29,F,6914,0,32,1,55,5,16,1,30,8:41,8,
-2024-11-24 17:21:08,R_3eXC36RoTIClExd,Aimee Manderlink,11/23/2024,1,1,1,28,F,14100,0,29,1,46,4,28,0,16,6hrs 59min,1,"birthday party, stayed the night at friend's house instead of my own bed"
-2024-11-24 19:58:17,R_1E6a6jlzma5EYIG,Anna Cheyette,11/23/2024,1,2,0,27,F,15909,,55,1,7,6,50,1,33,9h 1m,7,
-2024-11-24 21:45:51,R_1knN7OkMyYWmN87,Maya Lawton,11/23/2024,1,1,1,25,F,17744,,40,2,7,6,10,1,42,9 hr 59m,5,
-2024-11-24 21:52:45,R_1PoFRaBoGVfIh43,Alyssa Pamintuan,11/23/2024,1,1,1,25,F,4323,,14,1,38,3,27,,56,7hr 18min,5,
-2024-11-24 22:30:07,R_563xIJupL4wtjIp,Benjamin Xu,11/23/2024,1,2,0,23,M,5996,1,34,1,15,5,35,,4,,7,
-2024-11-25 11:12:34,R_65Wu0ZcYDIAS3Iv,Anna Cheyette,11/22/2024,1,2,0,27,F,3736,,55,1,7,5,20,1,24,7h 51m,5,
-2024-11-25 11:21:15,R_7ImzV93RJfisrrW,Chloe Hu,11/24/2024,1,2,0,22,F,10620,0,0,3,47,,45,3,32,8 hours,7,
-2024-11-25 11:39:51,R_1ifEIkmCnfF0Bax,Marie Warchol,11/24/2024,1,1,1,29,F,11868,0,59,0,25,6,4,1,26,7:55,9,
-2024-11-25 11:44:47,R_6CpNp53jKX2bxGE,Benjamin Xu,11/24/2024,1,2,0,23,M,6705,1,25,1,32,4,24,1,10,,7,
-2024-11-25 11:54:09,R_5mJicv0OyU4y0xu,Aimee Manderlink,11/24/2024,1,1,1,28,F,6066,0,4,0,50,4,34,0,44,6hrs 8 min,5,stayed up late watching TV
-2024-11-25 19:41:22,R_71QojdiNM2S7VSh,Arnav Verma,11/23/2024,1,2,0,22,M,9790,1,10,0,24,3,34,0,15,4h 13m,7,
-2024-11-25 19:47:36,R_3fpk3VVQuxyhJyK,Arnav Verma,11/24/2024,1,2,0,22,M,9016,1,22,1,13,2,7,0,32,4:52,5,
-2024-11-25 22:04:29,R_5svGVWOXoQwQiZc,Maya Lawton,11/24/2024,1,1,1,25,F,14392,,6,1,55,7,16,,31,9 hr 42 min,6,
-2024-11-25 22:05:40,R_5wHmSEWtdnS07jw,Teresa Xiong,11/24/2024,1,1,1,23,F,1000,,34,1,50,5,23,,48,8h43min,7,
-2024-11-25 22:18:40,R_6Gea9y5LUFoQ9AA,Alyssa Pamintuan,11/24/2024,1,1,1,25,F,2912,0,16,2,3,4,5,1,15,7h 23m,5,Had to wake up earlier than usual
-2024-11-25 23:08:49,R_7lxWeA8pCwpTH4T,Anna Cheyette,11/24/2024,1,2,0,27,F,9135,,27,1,23,6,35,,57,8h 55m,6,
-2024-11-26 0:12:01,R_5RU5zbPaljS8wox,Jason Pamintuan,11/25/2024,2,2,1,23,M,79,,2,1,36,4,48,,42,7hr 6min,7,
-2024-11-26 8:05:01,R_1jSvMymvB1Vo7F0,Irene Pang,11/25/2024,2,2,1,23,F,11140,,30,1,,3,,1,,5,7,i was traveling
-2024-11-26 12:02:21,R_6MhPqISWFCjCtA7,Benjamin Xu,11/25/2024,2,2,1,23,M,7809,1,25,1,0,4,27,1,11,,7,
-2024-11-26 12:03:08,R_138ULtmWPOnepxb,Aimee Manderlink,11/25/2024,2,1,0,28,F,14042,0,17,1,14,5,12,0,43,7hrs 9min,6,
-2024-11-26 13:11:46,R_1FsO14ySZFzGoNP,Alyssa Pamintuan,11/25/2024,2,1,0,25,F,1891,0,16,2,3,4,5,1,15,7h 23m,5,
-2024-11-26 14:38:47,R_7ARy2tYRIjf23Rj,Marie Warchol,11/25/2024,2,1,0,29,F,9225,0,56,0,54,5,9,1,42,7:45,7,
-2024-11-26 21:15:31,R_19DlNEHEwDphitr,Chloe Hu,11/25/2024,2,2,1,22,F,7878,0,0,3,47,0,45,3,32,8.8hours,8,
-2024-11-26 23:21:46,R_5Esfd893Gz40NLg,Maya Lawton,11/25/2024,2,1,0,25,F,8581,,11,2,21,6,46,,58,10 hr 5 min,8,
-2024-11-27 0:51:59,R_6mb9E7bjMWMvHrj,Teresa Xiong,11/26/2024,2,1,0,23,F,4609,,0,2,18,4,43,,52,7h53min,7,
-2024-11-27 0:54:50,R_51cMBfTqr9bTmws,Jason Pamintuan,11/25/2024,2,2,1,23,M,10228,,2,1,49,4,2,,42,6hr 33m,6,Had to wake up early 
-2024-11-27 5:02:31,R_6AS9EABZiguMpWS,Arnav Verma,11/26/2024,2,2,1,22,M,7368,0,4,0,49,3,19,0,27,6h 10m,4,had to wake up
-2024-11-27 9:57:55,R_7HkR7Uco8IKcAlK,Aimee Manderlink,11/26/2024,2,1,0,28,F,7113,0,2,1,7,3,32,1,30,6hrs 9min,7,stayed up late cooking for thanksgiving
-2024-11-27 10:15:11,R_7uYylXxgV2Dnq5X,Alyssa Pamintuan,11/26/2024,2,1,0,25,F,5070,1,5,1,50,5,2,0,25,8h 24m,5,
-2024-11-27 10:16:25,R_79j4wHzitZnh16L,Iren Sunga,11/25/2024,2,1,0,26,M,9717,0,5,1,22,5,50,1,2,8hr 4min,8,I was able to gym and walk my dogs as normal today.
-2024-11-27 10:17:53,R_7KuIQpGaODeyfUJ,Iren Sunga,11/26/2024,2,1,0,26,M,13596,0,9,1,30,4,34,0,40,6hr 44min,7,I went to the gym and played Pickleball today.
-2024-11-27 13:49:35,R_5NIAzIrW4KCiUDE,Arnav Verma,11/26/2024,2,2,1,22,M,4892,0,6,1,21,3,50,0,36,5h 46m,6,watch died in middle of day
-2024-11-27 19:03:25,R_7qDIZwg2YHf2xnt,Maya Lawton,11/26/2024,2,1,0,25,F,18160,,56,,27,5,22,,43,6 hr 32 min,6,
-2024-11-27 21:40:49,R_5qkOf96mQUDtNQG,Chloe Hu,11/26/2024,2,2,1,22,F,7683,0,0,3,44,1,44,2,14,7.7hours,7,
-2024-11-27 23:17:17,R_72L9xGY9fnT187p,Nick Manderlink,11/23/2024,1,2,0,28,M,6707,1,21,0,12,4,15,1,40,6h 7m,3,
-2024-11-27 23:19:05,R_6pYEo1uMi0dSSWv,Nick Manderlink,11/24/2024,1,2,0,28,M,5361,0,27,1,29,6,39,1,31,9h 39m,7,
-2024-11-27 23:20:34,R_3BwwlGVXx6QO7gw,Nick Manderlink,11/25/2024,2,2,1,28,M,5361,0,24,1,20,5,40,1,10,8h 34m,5,
-2024-11-27 23:22:22,R_5Nx5ZLlkx2Kqg9J,Nick Manderlink,11/26/2024,2,2,1,28,M,5638,0,18,0,39,5,6,1,52,7h 37m,6,
-2024-11-28 7:09:35,R_7yyYPtB9QxyTleh,Marie Warchol,11/26/2024,2,1,0,29,F,3454,0,44,1,31,5,35,1,30,8:36,5,Travel day - was on plane.
-2024-11-28 7:11:50,R_1qDILKNXF8GMlcj,Marie Warchol,11/27/2024,2,1,0,29,F,6769,1,15,0,52,4,58,1,39,7:29,6,
-2024-11-28 14:39:53,R_7v5jLu4gzqNSH4d,Aimee Manderlink,11/27/2024,2,1,0,28,F,11607,0,15,0,58,4,34,0,56,6hrs 28mins,4,"up late cooking, up early for thanksgiving "
-2024-11-28 22:29:14,R_356DlOd7e9ffoVb,Alyssa Pamintuan,11/27/2024,2,1,0,25,F,2191,2,34,0,59,4,5,0,13,5h 17m,3,
-2024-11-29 10:28:59,R_1QM5wgu4bCEmwzY,Teresa Xiong,11/28/2024,2,1,0,23,F,5048,0,8,1,50,4,37,1,13,7h 0m,4,
-2024-11-29 10:58:52,R_5goQ9d7BtnNl3hF,Marie Warchol,11/28/2024,2,1,0,29,F,2356,1,14,1,21,4,43,1,18,7:22,6,It was thanksgiving 
-2024-11-29 12:35:23,R_5dSH9nrFkcrTVc8,DROP,11/28/2024,2,#N/A,#N/A,#N/A,#N/A,324,,,,,,,,,,,
-2024-11-29 15:09:12,R_71tHzPhtMahLY1O,Maya Lawton,11/27/2024,2,1,0,25,F,16878,,13,,40,5,27,,49,6hr 56min,5,
-2024-11-29 15:10:23,R_7P7lR3ABbcJpXbA,Maya Lawton,11/28/2024,2,1,0,25,F,19955,,7,,51,6,12,,59,8hr 2min,5,
-2024-11-29 16:59:04,R_5Qn5PcLfDRtHvtp,Anna Cheyette,11/28/2024,2,2,1,27,F,13342,,37,1,51,6,20,1,1,9h 12m,8,
-2024-11-29 23:27:38,R_6qz9bZlviQSJlAv,Alyssa Pamintuan,11/28/2024,2,1,0,25,F,4863,2,34,0,59,4,5,0,13,5h 17m,2,Stomach bug; felt like didn’t get constant sleep
-2024-11-30 10:20:27,R_325ziFZZfueCtGt,Maya Lawton,11/29/2024,2,1,0,25,F,11761,,4,2,30,6,37,,43,9h 50 m,8,
-2024-11-30 10:31:16,R_6MxjkPBr2SH6114,Marie Warchol,11/29/2024,2,1,0,29,F,2562,0,31,2,7,2,7,1,54,9:47,9,Staying w family over holidays and not very active :/
-2024-11-30 10:53:48,R_1Y4CzAZBmAru9Wq,Winnie Xiao,11/29/2024,2,1,0,22,F,11319,0,30,3,0,3,45,1,15,8hr,8,
-2024-11-30 10:54:01,R_3lfLBEGCxVmN9bL,Chloe Hu,11/28/2024,2,2,1,22,F,11284,,,3,43,0,47,3,27,8 hours,8,
-2024-11-30 10:55:06,R_3S2JKsXT7l8OHDm,Winnie Xiao,11/28/2024,2,1,0,22,F,11437,,5,2,15,2,33,0,57,5hr 30 min,7,
-2024-11-30 10:55:13,R_6iz3KTAgqviVf3E,Chloe Hu,11/29/2024,2,2,1,22,F,11030,0,0,3,26,0,45,3,31,7.7 hours,9,
-2024-11-30 11:35:51,R_6rBgDAFotwr0r0R,Aimee Manderlink,11/28/2024,2,1,0,28,F,10035,0,25,1,47,4,12,1,25,7hrs 24mins,2,trouble falling asleep (maybe from eating too much too soon before bed)
-2024-11-30 11:39:31,R_7vjKyztjFg8piO9,Aimee Manderlink,11/29/2024,2,1,0,28,F,21218,0,17,1,20,5,13,0,41,7hrs 14min,7,"unexpected stressful event right before bed, fell asleep late as a resulr"
-2024-11-30 13:29:04,R_3w5CpmqbFP8OHPX,Anna Cheyette,11/29/2024,2,2,1,27,F,13887,,2,1,57,7,10,,46,9h 53m,9,
-2024-11-30 18:17:27,R_6C9bUEyufraky6R,Winnie Xiao,11/23/2024,1,1,1,22,F,11030,,20,2,20,4,33,,55,8 hr 48,8,
-2024-11-30 18:19:27,R_7IaZ2e9EdsxPp13,Winnie Xiao,11/24/2024,1,1,1,22,F,5615,,5,2,29,5,19,,42,8hr 30,9,
-2024-11-30 18:22:37,R_5JJD0YpDzxvhpnc,Iren Sunga,11/28/2024,2,1,0,26,M,6535,0,30,1,27,4,4,0,34,6hr 5min,6,I did not play Pickleball or walk the dogs due to driving a lot for Thanksgiving.
-2024-11-30 18:23:14,R_6CIJocIiPPB1pXY,Winnie Xiao,11/25/2024,2,1,0,22,F,8903,,21,1,16,4,21,1,6,6hr 43,5,
-2024-11-30 18:24:55,R_75zNBfKkl3qFZ9n,Winnie Xiao,11/26/2024,2,1,0,22,F,2938,,4,1,28,5,10,,46,7 hr 24 ,6,
-2024-11-30 18:26:37,R_6GpIlSaMI1UEmpb,Winnie Xiao,11/27/2024,2,1,0,22,F,11625,,14,2,19,4,45,,59,7 hr 49,9,
-2024-12-01 13:30:12,R_73grUtb2SSjVHB2,Maya Lawton,11/30/2024,2,1,0,25,F,15604,,22,,32,4,46,1,5,6 hr 23 m,5,
-2024-12-01 13:38:38,R_72nA7VNZB72yORd,Alyssa Pamintuan,11/30/2024,2,1,0,25,F,621,0,9,1,44,4,22,0,49,6h 55m,5,Stomach bug
-2024-12-01 15:24:57,R_6qwMnqr0laOw5Fu,Teresa Xiong,11/30/2024,2,1,0,23,F,2651,0,3,1,35,4,19,1,17,7h 11m,7,
-2024-12-01 15:27:55,R_7dWjmTeKURaDas4,Teresa Xiong,11/30/2024,2,1,0,23,F,2615,0,3,1,35,4,19,1,17,7h 11m,7,
-2024-12-01 15:29:30,R_7sW0SRmrPVIkecN,Teresa Xiong,11/30/2024,2,1,0,23,F,2800,0,5,1,25,3,33,1,1,5h 59m,4,This is the correct data for 11/30. The previously I reported should be fore 11/29. Sorry! 
-2024-12-01 17:54:19,R_7BtSHnHpHstjCje,Benjamin Xu,11/30/2024,2,2,1,23,M,4537,1,25,1,32,5,15,1,10,,6,
-2024-12-01 17:55:53,R_5A8aItqrN1hiNb3,Benjamin Xu,11/29/2024,2,2,1,23,M,12145,1,37,2,3,4,33,0,54,,7,
-2024-12-01 17:57:12,R_5z5xV3u3FPMe6UI,Benjamin Xu,11/28/2024,2,2,1,23,M,14838,1,52,1,21,4,47,1,40,,7,
-2024-12-01 19:07:11,R_3XmPbE6Ez5mw9bz,Marie Warchol,11/30/2024,2,1,0,29,F,1774,0,15,0,24,3,47,1,2,5:13,4,Spent lots of time plopped on couch w family 
-2024-12-02 0:56:26,R_19pkbAKu2uh2c8l,Aimee Manderlink,11/30/2024,2,1,0,28,F,8470,0,17,1,20,5,13,0,41,7hrs 14min,6,
-2024-12-02 11:17:49,R_5qwLrCzheBM7stS,Maya Lawton,12/1/2024,2,1,0,25,F,7681,,14,1,17,5,49,,35,7h 41 m,6,
-2024-12-02 11:53:02,R_7Bz3iEfwkwyn44x,Aimee Manderlink,12/1/2024,2,1,0,28,F,8741,0,16,1,9,5,1,0,57,7hrs 7min,3,
-2024-12-02 14:11:58,R_1qeNnSw7vz6N5Rq,Arnav Verma,11/29/2024,2,2,1,22,M,5489,0,44,1,16,3,35,0,35,7h 3m,6,
-2024-12-02 14:13:44,R_7mckgB6cHHBm02l,Arnav Verma,11/30/2024,2,2,1,22,M,9362,0,8,0,43,4,8,0,16,5h 7m,6,
-2024-12-02 14:15:50,R_3rug6nO9SytI9wr,Arnav Verma,12/1/2024,2,2,1,22,M,11649,0,6,0,54,4,23,0,28,5:51,7,
-2024-12-02 14:23:06,R_79dOvqTXXAQCUIV,Marie Warchol,12/1/2024,2,1,0,29,F,9035,0,42,0,36,5,18,1,33,7:27,7,
-2024-12-02 16:41:12,R_6YYtznrcMgysBiN,Nick Manderlink,11/27/2024,2,2,1,28,M,3187,0,18,0,39,5,6,1,52,7h 37m,6,
-2024-12-02 16:42:57,R_1aIxOIa8CoTkNOo,Nick Manderlink,11/28/2024,2,2,1,28,M,13191,0,23,1,44,4,34,2,24,8h 42m,9,
-2024-12-02 16:45:12,R_75ydLIrxwq0hMBs,Nick Manderlink,11/29/2024,2,2,1,28,M,11060,0,21,1,23,6,7,1,41,9h 11m,9,
-2024-12-02 16:47:40,R_3hQeE7TF0cuPGUi,Nick Manderlink,11/30/2024,2,2,1,28,M,3563,0,16,0,30,4,6,1,25,6h 1m,1,
-2024-12-02 16:49:30,R_6WtKu2713WIKMLv,Nick Manderlink,12/1/2024,2,2,1,28,M,4996,0,37,1,19,5,33,1,45,8h 37m,6,
-2024-12-02 17:05:45,R_5kG0Ip1ffZjF4Yo,Anna Cheyette,12/1/2024,2,2,1,27,F,3868,,47,1,26,5,42,1,20,8h 28m,7,
-2024-12-02 17:07:09,R_76MULpFYfOB74Vr,Anna Cheyette,11/30/2024,2,2,1,27,F,9530,,59,,25,6,8,,54,7h 27m,4,
-2024-12-02 17:24:09,R_61iknRxrmLK8ZQB,Teresa Xiong,12/1/2024,2,1,0,23,F,4078,0,0,1,7,3,35,0,25,5h 7m,6,
-2024-12-02 18:44:30,R_6bZ8gpuSJgZbbvH,Jason Pamintuan,12/1/2024,2,2,1,23,M,10105,,,1,43,5,24,,52,7h 59m,8,
-2024-12-02 18:48:21,R_1jDLjvRStxD2B21,Jason Pamintuan,11/27/2024,2,2,1,23,M,8019,,6,1,58,5,9,,39,,6,
+recorded_date,response_id,name,activity_sleep_date,study_week,participant_treatment_week,treatment,age,gender,steps,AwakeHour,AwakeMin,REMHour,REMMin,LightHour,LightMin,DeepHour,DeepMin,total_sleep_time,sleep_quality_rating,additional_info
+11/19/24 11:31,R_1E4dmHGN59yaD7D,Iren Sunga,11/18/24,1,1,1,26,M,13338,1,58,1,1,3,19,0,41,5hrs 1min,6,I took pre workout right before the gym which is equivalent to 1 cup of coffee.
+11/19/24 11:36,R_7HTVl6Uotxffu7P,Aimee Manderlink,11/18/24,1,1,1,28,F,11188,0,57,2,48,4,53,0,40,8 hrs 21 mins,5,
+11/19/24 11:47,R_7hrQhmNoRjCNT6v,Anna Cheyette,11/18/24,1,2,0,27,F,9585,,3,1,40,4,35,1,38,7h 53m,8,
+11/19/24 12:15,R_1c8wmPctBeeJFmP,Maya Lawton,11/18/24,1,1,1,25,F,7764,1,29,2,9,5,24,,39,"8 hours, 12 min",5,Woke up in the middle of the night and felt weird. 
+11/19/24 12:40,R_6FhWrjQegh4Xp3I,Nick Manderlink,11/18/24,1,2,0,28,M,351,0,33,0,44,5,48,2,11,8h 43m,7,
+11/19/24 13:20,R_1xRaXGjYeTMJcz3,Irene Pang,11/18/24,1,2,0,23,F,5012,0,,0,,3.5,,0.5,,4,3,I have an important meeting this morning so I felt stressed and it might result in an earlier wake up 
+11/19/24 13:58,R_3lyo42Y9CNeRTog,Marie Warchol,11/18/24,1,1,1,29,F,6791,0,27,0,32,6,15,1,44,08:31,9,
+11/19/24 14:15,R_7IXwCWgS88nGzqT,Benjamin Xu,11/18/24,1,2,0,23,M,8609,,25,2,15,2,15,1,45,6.25hr,8,
+11/19/24 15:04,R_1hhl6rgC1QJzqvV,Chloe Hu,11/18/24,1,2,0,22,F,6997,0,0,1,22,3,54,1,10,6.43 hours,7,
+11/19/24 15:51,R_7kHW2vhLdSZxguK,Alyssa Pamintuan,11/18/24,1,1,1,25,F,11802,1,2,1,34,4,2,1,,7,5,Stress (dog coughing throughout night)
+11/19/24 16:05,R_7LbxAFlQeJsEsi3,Jason Pamintuan,11/18/24,1,2,0,23,M,1508,,30,1,25,4,0,0,40,7 hours,6,N/a
+11/19/24 18:03,R_5BwWMvjbnjpHXIE,Arnav Verma,11/18/24,1,2,0,22,M,7882,1,42,1,49,4,48,0,38,07:49,7,had to wake up for meeting
+11/19/24 19:33,R_7oWIvmBSxeUu8FG,Jessica Chen,11/17/24,1,2,0,23,F,7524,,20,1,49,4,23,1,24,7hrs36mins,8,stress (approaching a deadline)
+11/19/24 22:08,R_69H9aOep8s3Ecil,Clarissa Yang,11/18/24,1,1,1,27,F,5250,0,0,0,55,4,35,2,27,8 hours,8,
+11/20/24 06:28,R_1d7zzXsS7HobPOx,Winnie Xiao,11/19/24,1,1,1,22,F,8613,0,,2,,2,,3,,7,4,
+11/20/24 09:33,R_5du63YvCnDUbTZP,Iren Sunga,11/19/24,1,1,1,26,M,10825,0,6,1,33,5,2,0,45,7hr 20min,8,Dogs did not wake me up this night and I had to sleep earlier since I had to wake up earlier to come on site.
+11/20/24 11:16,R_6JCAB3YwSpybX4j,Alyssa Pamintuan,11/19/24,1,1,1,25,F,8981,,17,1,59,5,53,,32,8hr 24min,5,"Dogs sleep with me, dogs chronic coughing wakes me up throughout night"
+11/20/24 11:20,R_6pS7r3ZdJq2ConL,Jason Pamintuan,11/19/24,1,2,0,23,M,5600,0,27,1,21,4,38,0,16,6 hours 15 mins,5,N/a
+11/20/24 11:33,R_18ErNq59U6uuNJT,Zhigui Lee,11/19/24,1,1,1,29,M,8775,0,0,0,49,4,36,1,21,6.5 hrs,4,
+11/20/24 11:34,R_3fjwnsxZ9aitHhg,Marie Warchol,11/19/24,1,1,1,29,F,9867,0,45,0,24,6,16,1,43,08:23,8,
+11/20/24 11:36,R_3Ppr3WgfWdlrken,Aimee Manderlink,11/19/24,1,1,1,28,F,4085,,12,1,43,5,8,0,54,7hrs 57mins,7,"severe wind storm, couldn’t run outside after work as usual "
+11/20/24 12:20,R_7AUBF5qzYq0BUYh,Alex Hughes,11/19/24,1,1,1,,M,5800,,36,1,32,5,3,1,48,08:23,8,
+11/20/24 13:46,R_7096bdAheQeBJ6y,Chloe Hu,11/19/24,1,2,0,22,F,3408,0,0,1,17,3,36,1,9,6 hours,7,
+11/20/24 13:47,R_1nlPIsixkh2Plyp,Maya Lawton,11/19/24,1,1,1,25,F,13542,,29,1,46,7,9,,42,"9 hours, 37 minutes",5,"I took a nap, and stress."
+11/20/24 15:12,R_31Z5atXb9cP3bW1,Arnav Verma,11/19/24,1,2,0,22,M,6822,3,7,0,28,1,31,0,54,2 hour 53 min,1,"tossed and turned today, had to wake up early for a work meeting"
+11/20/24 17:40,R_6LhfvRSoiIefEHv,Anna Cheyette,11/19/24,1,2,0,27,F,4180,,18,,38,6,23,,59,8 hours,3,Alcohol before bed (2 drinks)
+11/20/24 17:59,R_3k5O0ANM0UKsrkt,Benjamin Xu,11/19/24,1,2,0,23,M,3803,1,43,1,32,4,17,0,34,8h 6min,8,
+11/20/24 19:31,R_6aAi0GQOrAgfEhb,Nick Manderlink,11/19/24,1,2,0,28,M,2034,0,12,1,25,4,59,1,53,8h 17m,8,
+11/21/24 10:00,R_6pFHQ4n4cZ0Q2ob,Winnie Xiao,11/20/24,1,1,1,22,F,4011,,8,1,47,5,9,1,3,7hr 59min,8,
+11/21/24 11:27,R_7zBYbhZY5IrL21i,Iren Sunga,11/20/24,1,1,1,26,M,9242,0,27,1,38,4,,1,31,7hrs 9min,8,My dogs woke me up to pee at 4am.
+11/21/24 11:51,R_5UWenfuPnD5Rptv,Irene Pang,11/19/24,1,2,0,23,F,5,0.5,,1,,3,,0.5,,5,5,
+11/21/24 11:52,R_7niOaOM8oX5cIyl,Anna Cheyette,11/20/24,1,2,0,27,F,10659,,29,,48,5,30,1,19,7 hours 37 minutes,5,
+11/21/24 11:53,R_70Htfp82lfR58ZJ,Irene Pang,11/20/24,1,2,0,23,F,4420,0.5,,0.5,,3,,1,,5,4,I have an assignment due this morning 
+11/21/24 11:55,R_6ftXvrxtETvlcuR,Alyssa Pamintuan,11/20/24,1,1,1,25,F,7006,,5,1,19,2,56,,58,5hr 13min,3,"Stomach ache, Restless"
+11/21/24 11:55,R_1suTUb7PP5i7ZFD,Nick Manderlink,11/20/24,1,2,0,28,M,7103,0,24,1,29,5,19,1,26,8 h 14m,4,
+11/21/24 12:02,R_5riewA5CmcsJCcd,Aimee Manderlink,11/20/24,1,1,1,28,F,10216,0,17,1,5,5,24,1,0,7hrs 29mins,3,stress
+11/21/24 12:37,R_6B3PhRYUya8AWeq,Chloe Hu,11/20/24,1,2,0,22,F,3939,0,0,3,15,2,15,2,15,7.8hours,6,
+11/21/24 12:57,R_7hGtLznA6vH6WDx,Jason Pamintuan,11/20/24,1,2,0,23,M,4238,,12,1,44,4,51,,42,7H 17M,6,
+11/21/24 13:04,R_3J7jo2E1BkUwvT3,Marie Warchol,11/20/24,1,1,1,29,F,4640,0,40,0,24,6,9,1,34,08:07,8,"It was so rainy outside, so I didn't walk a lot :( "
+11/21/24 13:37,R_1y79YU0vhQHkMhH,Alex Hughes,11/20/24,1,1,1,,M,6000,0,40,0,56,5,9,1,33,7h 38m,5,"So. Much. Rain. And, I didn't get that many steps on this day, but I did climb at the gym for 45 minutes. Also, getting two validations is hard, but if I've uploaded a picture, do you need me to fill the box? "
+11/21/24 13:47,R_6qfSK0TeErM6BF3,Benjamin Xu,11/20/24,1,2,0,23,M,6169,1,15,1,0,4,5,1,10,7h 30 minutes,6,
+11/21/24 19:28,R_3meYrczyBBQiLu0,Maya Lawton,11/20/24,1,1,1,25,F,8555,,12,1,53,7,38,,21,9 hours and 52 minutes,3,"Stress, weather is gross outside."
+11/22/24 11:06,R_7eYbd1TKP5eYZah,Alyssa Pamintuan,11/21/24,1,1,1,25,F,9441,0,9,2,13,3,50,1,0,7h 3m,5,
+11/22/24 11:15,R_5Sds8t1LMocYTXb,DROP,11/21/24,1,#N/A,#N/A,#N/A,#N/A,234,,,,,,,,,,,
+11/22/24 11:15,R_5oKH62jRPw9EJdD,Nick Manderlink,11/21/24,1,2,0,28,M,8383,0,24,1,29,5,19,1,26,8h 14m,6,
+11/22/24 11:28,R_7Wps2Fnrm4iNC7L,Maya Lawton,11/21/24,1,1,1,25,F,14539,,43,,6,4,13,1,52,6 hours 11 minutes,1,I was drunky
+11/22/24 11:44,R_7aWTKJ4Q6MScw5X,Jason Pamintuan,11/21/24,1,2,0,23,M,3039,2,35,0,44,5,25,1,7,7h 16m,7,
+11/22/24 12:14,R_6qQmH0dnFDpxFWU,Aimee Manderlink,11/21/24,1,1,1,28,F,3314,0,0,1,49,4,42,1,40,8hrs 11 mins,7,"busy day, did not have time for exercise"
+11/22/24 12:35,R_5ylNcr6hRHOt4Kx,DROP,11/20/24,1,#N/A,#N/A,#N/A,#N/A,8,,,,,,,,,,,
+11/22/24 12:45,R_7qE1KZXhdKYvUxu,Neal Hughes,11/21/24,1,2,0,,M,5143,0,1,2,34,5,8,0,32,8 hr 14 min,8,
+11/22/24 14:50,R_629MaWS6efaLroH,Marie Warchol,11/21/24,1,1,1,29,F,5961,0,50,0,29,6,38,1,46,08:53,9,It was sooooo rainy again :( so I didn't go outside much
+11/22/24 15:48,R_5CM8jNtiUrMJwo9,Irene Pang,11/21/24,1,2,0,23,F,2174,,30,2,,3,,2,,7,7,
+11/22/24 15:49,R_1MGbGPDIPtD0qws,Benjamin Xu,11/21/24,1,2,0,23,M,7938,1,21,1,37,4,24,0,40,6h 40 m,7,
+11/22/24 18:02,R_3il0tb7J7jjQI5X,Anna Cheyette,11/21/24,1,2,0,27,F,9524,,19,1,33,6,40,,50,9h 3min,8,
+11/22/24 23:24,R_7QGa6UYIePYRQvF,Iren Sunga,11/21/24,1,1,1,26,M,10251,0,27,1,38,4,,1,31,7hr 9min,8,Dog woke me up at 4am.
+11/23/24 06:21,R_6JK8NWcJLHv1VL0,Chloe Hu,11/22/24,1,2,0,22,F,7733,,,3,48,1,16,1,31,6.6 hour,5,
+11/23/24 16:09,R_3TLRElrkq2Kw6GJ,Arnav Verma,11/21/24,1,2,0,22,M,7883,0,5,1,0,4,45,0,35,6h 20m,6,meeting early in the morning
+11/23/24 16:14,R_7YcfbT2sR6LDshU,Arnav Verma,11/22/24,1,2,0,22,M,8804,0,13,1,27,5,43,1,6,08:19,9,been to raves the last 2 days 
+11/23/24 18:41,R_1TvmyhEcQuPWRkd,Benjamin Xu,11/22/24,1,2,0,23,M,4875,1,25,1,30,4,30,1,,,7,
+11/23/24 19:59,R_3kLJQMEvAScfZqp,Alyssa Pamintuan,11/22/24,1,1,1,25,F,7159,,13,2,16,4,31,1,,8hr,6,
+11/23/24 20:10,R_5R1QyHL7MxiKcOR,Jason Pamintuan,11/22/24,1,2,0,23,M,1361,,32,,38,4,58,,34,6h 10m,4,
+11/23/24 20:46,R_322RBA6Bh42du4i,Maya Lawton,11/22/24,1,1,1,25,F,8230,,7,,28,5,58,1,15,7 hours and 41 min ,5,"Went to bed late, stayed inside all day because of bad weather."
+11/23/24 21:39,R_5IzhxlubmNUzo7T,Aimee Manderlink,11/22/24,1,1,1,28,F,12185,0,0,1,46,5,59,0,16,8hrs 1min,5,
+11/23/24 22:43,R_1rGLRxbLHFx0UnG,Irene Pang,11/22/24,1,2,0,23,F,2103,2,20,1,,2,,1,,,5,
+11/23/24 23:39,R_1cRObOUd2rAVkk8,Winnie Xiao,11/21/24,1,1,1,22,F,4516,,9,2,16,5,25,,59,7hr 59 min,8,
+11/23/24 23:40,R_1qqMMZOnkiJabNa,Winnie Xiao,11/22/24,1,1,1,22,F,4516,,10,2,44,5,40,,55,9hr 19 min,9,
+11/24/24 10:59,R_3kENhXKRKDNYLVY,Teresa Xiong,11/23/24,1,1,1,23,F,4035,,2,1,35,3,43,1,24,6h42min,5,N/A
+11/24/24 11:59,R_7iRqufENqz8Iq9j,Chloe Hu,11/23/24,1,2,0,22,F,13464,0,0,2,47,3,33,2,17,8.6 hours,8,
+11/24/24 14:00,R_1do9szDzsXs5vuX,Iren Sunga,11/22/24,1,1,1,26,M,5591,0,8,1,40,5,8,1,5,7hr 53min,8,I was unable to play pickleball or walk as normal due to rain.
+11/24/24 14:01,R_7TNaFT4P1yG2gvz,Iren Sunga,11/23/24,1,1,1,26,M,5708,1,17,1,20,4,45,0,34,9hr 18min,9,I was unable to play pickleball or walk my dogs due to rain.
+11/24/24 15:45,R_7KvJM09iYVnJEvt,Marie Warchol,11/22/24,1,1,1,29,F,6914,0,32,1,55,5,16,1,30,08:41,8,
+11/24/24 17:21,R_3eXC36RoTIClExd,Aimee Manderlink,11/23/24,1,1,1,28,F,14100,0,29,1,46,4,28,0,16,6hrs 59min,1,"birthday party, stayed the night at friend's house instead of my own bed"
+11/24/24 19:58,R_1E6a6jlzma5EYIG,Anna Cheyette,11/23/24,1,2,0,27,F,15909,,55,1,7,6,50,1,33,9h 1m,7,
+11/24/24 21:45,R_1knN7OkMyYWmN87,Maya Lawton,11/23/24,1,1,1,25,F,17744,,40,2,7,6,10,1,42,9 hr 59m,5,
+11/24/24 21:52,R_1PoFRaBoGVfIh43,Alyssa Pamintuan,11/23/24,1,1,1,25,F,4323,,14,1,38,3,27,,56,7hr 18min,5,
+11/24/24 22:30,R_563xIJupL4wtjIp,Benjamin Xu,11/23/24,1,2,0,23,M,5996,1,34,1,15,5,35,,4,,7,
+11/25/24 11:12,R_65Wu0ZcYDIAS3Iv,Anna Cheyette,11/22/24,1,2,0,27,F,3736,,55,1,7,5,20,1,24,7h 51m,5,
+11/25/24 11:21,R_7ImzV93RJfisrrW,Chloe Hu,11/24/24,1,2,0,22,F,10620,0,0,3,47,,45,3,32,8 hours,7,
+11/25/24 11:39,R_1ifEIkmCnfF0Bax,Marie Warchol,11/24/24,1,1,1,29,F,11868,0,59,0,25,6,4,1,26,07:55,9,
+11/25/24 11:44,R_6CpNp53jKX2bxGE,Benjamin Xu,11/24/24,1,2,0,23,M,6705,1,25,1,32,4,24,1,10,,7,
+11/25/24 11:54,R_5mJicv0OyU4y0xu,Aimee Manderlink,11/24/24,1,1,1,28,F,6066,0,4,0,50,4,34,0,44,6hrs 8 min,5,stayed up late watching TV
+11/25/24 19:41,R_71QojdiNM2S7VSh,Arnav Verma,11/23/24,1,2,0,22,M,9790,1,10,0,24,3,34,0,15,4h 13m,7,
+11/25/24 19:47,R_3fpk3VVQuxyhJyK,Arnav Verma,11/24/24,1,2,0,22,M,9016,1,22,1,13,2,7,0,32,04:52,5,
+11/25/24 22:04,R_5svGVWOXoQwQiZc,Maya Lawton,11/24/24,1,1,1,25,F,14392,,6,1,55,7,16,,31,9 hr 42 min,6,
+11/25/24 22:05,R_5wHmSEWtdnS07jw,Teresa Xiong,11/24/24,1,1,1,23,F,1000,,34,1,50,5,23,,48,8h43min,7,
+11/25/24 22:18,R_6Gea9y5LUFoQ9AA,Alyssa Pamintuan,11/24/24,1,1,1,25,F,2912,0,16,2,3,4,5,1,15,7h 23m,5,Had to wake up earlier than usual
+11/25/24 23:08,R_7lxWeA8pCwpTH4T,Anna Cheyette,11/24/24,1,2,0,27,F,9135,,27,1,23,6,35,,57,8h 55m,6,
+11/26/24 00:12,R_5RU5zbPaljS8wox,Jason Pamintuan,11/25/24,2,2,1,23,M,79,,2,1,36,4,48,,42,7hr 6min,7,
+11/26/24 08:05,R_1jSvMymvB1Vo7F0,Irene Pang,11/25/24,2,2,1,23,F,11140,,30,1,,3,,1,,5,7,i was traveling
+11/26/24 12:02,R_6MhPqISWFCjCtA7,Benjamin Xu,11/25/24,2,2,1,23,M,7809,1,25,1,0,4,27,1,11,,7,
+11/26/24 12:03,R_138ULtmWPOnepxb,Aimee Manderlink,11/25/24,2,1,0,28,F,14042,0,17,1,14,5,12,0,43,7hrs 9min,6,
+11/26/24 13:11,R_1FsO14ySZFzGoNP,Alyssa Pamintuan,11/25/24,2,1,0,25,F,1891,0,16,2,3,4,5,1,15,7h 23m,5,
+11/26/24 14:38,R_7ARy2tYRIjf23Rj,Marie Warchol,11/25/24,2,1,0,29,F,9225,0,56,0,54,5,9,1,42,07:45,7,
+11/26/24 21:15,R_19DlNEHEwDphitr,Chloe Hu,11/25/24,2,2,1,22,F,7878,0,0,3,47,0,45,3,32,8.8hours,8,
+11/26/24 23:21,R_5Esfd893Gz40NLg,Maya Lawton,11/25/24,2,1,0,25,F,8581,,11,2,21,6,46,,58,10 hr 5 min,8,
+11/27/24 00:51,R_6mb9E7bjMWMvHrj,Teresa Xiong,11/26/24,2,1,0,23,F,4609,,0,2,18,4,43,,52,7h53min,7,
+11/27/24 00:54,R_51cMBfTqr9bTmws,Jason Pamintuan,11/25/24,2,2,1,23,M,10228,,2,1,49,4,2,,42,6hr 33m,6,Had to wake up early 
+11/27/24 05:02,R_6AS9EABZiguMpWS,Arnav Verma,11/26/24,2,2,1,22,M,7368,0,4,0,49,3,19,0,27,6h 10m,4,had to wake up
+11/27/24 09:57,R_7HkR7Uco8IKcAlK,Aimee Manderlink,11/26/24,2,1,0,28,F,7113,0,2,1,7,3,32,1,30,6hrs 9min,7,stayed up late cooking for thanksgiving
+11/27/24 10:15,R_7uYylXxgV2Dnq5X,Alyssa Pamintuan,11/26/24,2,1,0,25,F,5070,1,5,1,50,5,2,0,25,8h 24m,5,
+11/27/24 10:16,R_79j4wHzitZnh16L,Iren Sunga,11/25/24,2,1,0,26,M,9717,0,5,1,22,5,50,1,2,8hr 4min,8,I was able to gym and walk my dogs as normal today.
+11/27/24 10:17,R_7KuIQpGaODeyfUJ,Iren Sunga,11/26/24,2,1,0,26,M,13596,0,9,1,30,4,34,0,40,6hr 44min,7,I went to the gym and played Pickleball today.
+11/27/24 13:49,R_5NIAzIrW4KCiUDE,Arnav Verma,11/26/24,2,2,1,22,M,4892,0,6,1,21,3,50,0,36,5h 46m,6,watch died in middle of day
+11/27/24 19:03,R_7qDIZwg2YHf2xnt,Maya Lawton,11/26/24,2,1,0,25,F,18160,,56,,27,5,22,,43,6 hr 32 min,6,
+11/27/24 21:40,R_5qkOf96mQUDtNQG,Chloe Hu,11/26/24,2,2,1,22,F,7683,0,0,3,44,1,44,2,14,7.7hours,7,
+11/27/24 23:17,R_72L9xGY9fnT187p,Nick Manderlink,11/23/24,1,2,0,28,M,6707,1,21,0,12,4,15,1,40,6h 7m,3,
+11/27/24 23:19,R_6pYEo1uMi0dSSWv,Nick Manderlink,11/24/24,1,2,0,28,M,5361,0,27,1,29,6,39,1,31,9h 39m,7,
+11/27/24 23:20,R_3BwwlGVXx6QO7gw,Nick Manderlink,11/25/24,2,2,1,28,M,5361,0,24,1,20,5,40,1,10,8h 34m,5,
+11/27/24 23:22,R_5Nx5ZLlkx2Kqg9J,Nick Manderlink,11/26/24,2,2,1,28,M,5638,0,18,0,39,5,6,1,52,7h 37m,6,
+11/28/24 07:09,R_7yyYPtB9QxyTleh,Marie Warchol,11/26/24,2,1,0,29,F,3454,0,44,1,31,5,35,1,30,08:36,5,Travel day - was on plane.
+11/28/24 07:11,R_1qDILKNXF8GMlcj,Marie Warchol,11/27/24,2,1,0,29,F,6769,1,15,0,52,4,58,1,39,07:29,6,
+11/28/24 14:39,R_7v5jLu4gzqNSH4d,Aimee Manderlink,11/27/24,2,1,0,28,F,11607,0,15,0,58,4,34,0,56,6hrs 28mins,4,"up late cooking, up early for thanksgiving "
+11/28/24 22:29,R_356DlOd7e9ffoVb,Alyssa Pamintuan,11/27/24,2,1,0,25,F,2191,2,34,0,59,4,5,0,13,5h 17m,3,
+11/29/24 10:28,R_1QM5wgu4bCEmwzY,Teresa Xiong,11/28/24,2,1,0,23,F,5048,0,8,1,50,4,37,1,13,7h 0m,4,
+11/29/24 10:58,R_5goQ9d7BtnNl3hF,Marie Warchol,11/28/24,2,1,0,29,F,2356,1,14,1,21,4,43,1,18,07:22,6,It was thanksgiving 
+11/29/24 12:35,R_5dSH9nrFkcrTVc8,DROP,11/28/24,2,#N/A,#N/A,#N/A,#N/A,324,,,,,,,,,,,
+11/29/24 15:09,R_71tHzPhtMahLY1O,Maya Lawton,11/27/24,2,1,0,25,F,16878,,13,,40,5,27,,49,6hr 56min,5,
+11/29/24 15:10,R_7P7lR3ABbcJpXbA,Maya Lawton,11/28/24,2,1,0,25,F,19955,,7,,51,6,12,,59,8hr 2min,5,
+11/29/24 16:59,R_5Qn5PcLfDRtHvtp,Anna Cheyette,11/28/24,2,2,1,27,F,13342,,37,1,51,6,20,1,1,9h 12m,8,
+11/29/24 23:27,R_6qz9bZlviQSJlAv,Alyssa Pamintuan,11/28/24,2,1,0,25,F,4863,2,34,0,59,4,5,0,13,5h 17m,2,Stomach bug; felt like didn’t get constant sleep
+11/30/24 10:20,R_325ziFZZfueCtGt,Maya Lawton,11/29/24,2,1,0,25,F,11761,,4,2,30,6,37,,43,9h 50 m,8,
+11/30/24 10:31,R_6MxjkPBr2SH6114,Marie Warchol,11/29/24,2,1,0,29,F,2562,0,31,2,7,2,7,1,54,09:47,9,Staying w family over holidays and not very active :/
+11/30/24 10:53,R_1Y4CzAZBmAru9Wq,Winnie Xiao,11/29/24,2,1,0,22,F,11319,0,30,3,0,3,45,1,15,8hr,8,
+11/30/24 10:54,R_3lfLBEGCxVmN9bL,Chloe Hu,11/28/24,2,2,1,22,F,11284,,,3,43,0,47,3,27,8 hours,8,
+11/30/24 10:55,R_3S2JKsXT7l8OHDm,Winnie Xiao,11/28/24,2,1,0,22,F,11437,,5,2,15,2,33,0,57,5hr 30 min,7,
+11/30/24 10:55,R_6iz3KTAgqviVf3E,Chloe Hu,11/29/24,2,2,1,22,F,11030,0,0,3,26,0,45,3,31,7.7 hours,9,
+11/30/24 11:35,R_6rBgDAFotwr0r0R,Aimee Manderlink,11/28/24,2,1,0,28,F,10035,0,25,1,47,4,12,1,25,7hrs 24mins,2,trouble falling asleep (maybe from eating too much too soon before bed)
+11/30/24 11:39,R_7vjKyztjFg8piO9,Aimee Manderlink,11/29/24,2,1,0,28,F,21218,0,17,1,20,5,13,0,41,7hrs 14min,7,"unexpected stressful event right before bed, fell asleep late as a resulr"
+11/30/24 13:29,R_3w5CpmqbFP8OHPX,Anna Cheyette,11/29/24,2,2,1,27,F,13887,,2,1,57,7,10,,46,9h 53m,9,
+11/30/24 18:17,R_6C9bUEyufraky6R,Winnie Xiao,11/23/24,1,1,1,22,F,11030,,20,2,20,4,33,,55,8 hr 48,8,
+11/30/24 18:19,R_7IaZ2e9EdsxPp13,Winnie Xiao,11/24/24,1,1,1,22,F,5615,,5,2,29,5,19,,42,8hr 30,9,
+11/30/24 18:22,R_5JJD0YpDzxvhpnc,Iren Sunga,11/28/24,2,1,0,26,M,6535,0,30,1,27,4,4,0,34,6hr 5min,6,I did not play Pickleball or walk the dogs due to driving a lot for Thanksgiving.
+11/30/24 18:23,R_6CIJocIiPPB1pXY,Winnie Xiao,11/25/24,2,1,0,22,F,8903,,21,1,16,4,21,1,6,6hr 43,5,
+11/30/24 18:24,R_75zNBfKkl3qFZ9n,Winnie Xiao,11/26/24,2,1,0,22,F,2938,,4,1,28,5,10,,46,7 hr 24 ,6,
+11/30/24 18:26,R_6GpIlSaMI1UEmpb,Winnie Xiao,11/27/24,2,1,0,22,F,11625,,14,2,19,4,45,,59,7 hr 49,9,
+12/1/24 13:30,R_73grUtb2SSjVHB2,Maya Lawton,11/30/24,2,1,0,25,F,15604,,22,,32,4,46,1,5,6 hr 23 m,5,
+12/1/24 13:38,R_72nA7VNZB72yORd,Alyssa Pamintuan,11/30/24,2,1,0,25,F,621,0,9,1,44,4,22,0,49,6h 55m,5,Stomach bug
+12/1/24 15:24,R_6qwMnqr0laOw5Fu,Teresa Xiong,11/30/24,2,1,0,23,F,2651,0,3,1,35,4,19,1,17,7h 11m,7,
+12/1/24 15:27,R_7dWjmTeKURaDas4,Teresa Xiong,11/30/24,2,1,0,23,F,2615,0,3,1,35,4,19,1,17,7h 11m,7,
+12/1/24 15:29,R_7sW0SRmrPVIkecN,Teresa Xiong,11/30/24,2,1,0,23,F,2800,0,5,1,25,3,33,1,1,5h 59m,4,This is the correct data for 11/30. The previously I reported should be fore 11/29. Sorry! 
+12/1/24 17:54,R_7BtSHnHpHstjCje,Benjamin Xu,11/30/24,2,2,1,23,M,4537,1,25,1,32,5,15,1,10,,6,
+12/1/24 17:55,R_5A8aItqrN1hiNb3,Benjamin Xu,11/29/24,2,2,1,23,M,12145,1,37,2,3,4,33,0,54,,7,
+12/1/24 17:57,R_5z5xV3u3FPMe6UI,Benjamin Xu,11/28/24,2,2,1,23,M,14838,1,52,1,21,4,47,1,40,,7,
+12/1/24 19:07,R_3XmPbE6Ez5mw9bz,Marie Warchol,11/30/24,2,1,0,29,F,1774,0,15,0,24,3,47,1,2,05:13,4,Spent lots of time plopped on couch w family 
+12/2/24 00:56,R_19pkbAKu2uh2c8l,Aimee Manderlink,11/30/24,2,1,0,28,F,8470,0,17,1,20,5,13,0,41,7hrs 14min,6,
+12/2/24 11:17,R_5qwLrCzheBM7stS,Maya Lawton,12/1/24,2,1,0,25,F,7681,,14,1,17,5,49,,35,7h 41 m,6,
+12/2/24 11:53,R_7Bz3iEfwkwyn44x,Aimee Manderlink,12/1/24,2,1,0,28,F,8741,0,16,1,9,5,1,0,57,7hrs 7min,3,
+12/2/24 14:11,R_1qeNnSw7vz6N5Rq,Arnav Verma,11/29/24,2,2,1,22,M,5489,0,44,1,16,3,35,0,35,7h 3m,6,
+12/2/24 14:13,R_7mckgB6cHHBm02l,Arnav Verma,11/30/24,2,2,1,22,M,9362,0,8,0,43,4,8,0,16,5h 7m,6,
+12/2/24 14:15,R_3rug6nO9SytI9wr,Arnav Verma,12/1/24,2,2,1,22,M,11649,0,6,0,54,4,23,0,28,05:51,7,
+12/2/24 14:23,R_79dOvqTXXAQCUIV,Marie Warchol,12/1/24,2,1,0,29,F,9035,0,42,0,36,5,18,1,33,07:27,7,
+12/2/24 16:41,R_6YYtznrcMgysBiN,Nick Manderlink,11/27/24,2,2,1,28,M,3187,0,18,0,39,5,6,1,52,7h 37m,6,
+12/2/24 16:42,R_1aIxOIa8CoTkNOo,Nick Manderlink,11/28/24,2,2,1,28,M,13191,0,23,1,44,4,34,2,24,8h 42m,9,
+12/2/24 16:45,R_75ydLIrxwq0hMBs,Nick Manderlink,11/29/24,2,2,1,28,M,11060,0,21,1,23,6,7,1,41,9h 11m,9,
+12/2/24 16:47,R_3hQeE7TF0cuPGUi,Nick Manderlink,11/30/24,2,2,1,28,M,3563,0,16,0,30,4,6,1,25,6h 1m,1,
+12/2/24 16:49,R_6WtKu2713WIKMLv,Nick Manderlink,12/1/24,2,2,1,28,M,4996,0,37,1,19,5,33,1,45,8h 37m,6,
+12/2/24 17:05,R_5kG0Ip1ffZjF4Yo,Anna Cheyette,12/1/24,2,2,1,27,F,3868,,47,1,26,5,42,1,20,8h 28m,7,
+12/2/24 17:07,R_76MULpFYfOB74Vr,Anna Cheyette,11/30/24,2,2,1,27,F,9530,,59,,25,6,8,,54,7h 27m,4,
+12/2/24 17:24,R_61iknRxrmLK8ZQB,Teresa Xiong,12/1/24,2,1,0,23,F,4078,0,0,1,7,3,35,0,25,5h 7m,6,
+12/2/24 18:44,R_6bZ8gpuSJgZbbvH,Jason Pamintuan,12/1/24,2,2,1,23,M,10105,,,1,43,5,24,,52,7h 59m,8,
+12/2/24 18:48,R_1jDLjvRStxD2B21,Jason Pamintuan,11/27/24,2,2,1,23,M,8019,,6,1,58,5,9,,39,,6,
