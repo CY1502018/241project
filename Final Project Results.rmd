@@ -40,11 +40,36 @@ prelim_results <- prelim_results %>%
   relocate(TotalNumHour, .after = DeepNumHour)
 ```
 ```{r}
-# fit the linear mixed-effects model
+# fit the linear mixed-effects model to deep sleep hours
 model1 <- lmer(DeepNumHour ~ steps + (1 | name), data = prelim_results)
 summary(model1)
+# fit the linear mixed-effects model to overall sleep hours
+model2 <- lmer(TotalNumHour ~ steps + (1 | name), data = prelim_results)
+summary(model2)
 ```
 
+```{r}
+# correlation
+cor_results <- prelim_results %>%
+  select(steps, TotalNumHour, DeepNumHour) %>%
+  cor(use = "complete.obs")
+
+print(cor_results)
+
+# multiple linreg
+model3 <- lm(DeepNumHour ~ steps, data = prelim_results)
+summary(model3)
+
+# ANOVA
+anova_results <- aov(DeepNumHour ~ steps, data = prelim_results)
+summary(anova_results)
+
+# linear mixed effects, with interaction
+model4 <- lmer(DeepNumHour ~ steps * TotalNumHour + (1 | name), data = prelim_results)
+summary(model4)
+```
+
+#Below is for poster graphing
 
 
 ```{r}
