@@ -39,12 +39,27 @@ prelim_results <- prelim_results %>%
   mutate(TotalNumHour = AwakeNumHour + REMNumHour + LightNumHour + DeepNumHour) %>%
   relocate(TotalNumHour, .after = DeepNumHour)
 ```
+
+```{r}
+prelim_results <- prelim_results %>%
+  group_by(name) %>%
+  mutate(participant_id = cur_group_id()) %>%
+  ungroup() %>%
+  relocate(participant_id, .after = name)
+
+participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jessica Chen", "DROP")
+prelim_results <- prelim_results %>%
+  filter(!name %in% participants_to_exclude)
+```
+
+
+
 ```{r}
 # fit the linear mixed-effects model to deep sleep hours
-model1 <- lmer(DeepNumHour ~ steps + (1 | name), data = prelim_results)
+model1 <- lmer(DeepNumHour ~ steps + (1 | name), data = prelim_results )
 summary(model1)
 # fit the linear mixed-effects model to overall sleep hours
-model2 <- lmer(TotalNumHour ~ steps + (1 | name), data = prelim_results)
+model2 <- lmer(TotalNumHour ~ steps + (1 | name), data = prelim_results, control = check.scaleX)
 summary(model2)
 ```
 
@@ -58,10 +73,12 @@ print(cor_results)
 
 # multiple linreg
 model3 <- lm(DeepNumHour ~ steps, data = prelim_results)
+cat("multiple linear regression on number of step count and deep sleep hours- unclustered individual")
 summary(model3)
 
 # ANOVA
 anova_results <- aov(DeepNumHour ~ steps, data = prelim_results)
+cat("ANOVA to look at number of step count deep sleep hours- unclustered individual")
 summary(anova_results)
 
 # linear mixed effects, with interaction
@@ -73,7 +90,7 @@ Correlation Analysis: The Pearson correlation coefficient between steps and Deep
 
 Multiple Linear Regression: coefficient for steps is 2.804e-06 with a p-value of 0.82 - relationship between steps and DeepNumHour is not statistically significant. R-squared value is 0.0003421- steps explains very little of the variance in DeepNumHour.
 
-ANOVA: F-statistic is 0.052 with a p-value of 0.82-  there is no significant difference in DeepNumHour across different levels of steps.
+ANOVA: F-statistic is 0.052 with a p-value of 0.82, we are unable to reject the null hypothesis on the 0.05 significance level and would like to suggest that there is no significant difference in DeepNumHour across different levels of steps.
 
 Linear mixed-effects with interaction: The model includes interaction terms to see if the relationship between steps and DeepNumHour changes at different levels of TotalNumHour. The coefficients for steps, TotalNumHour, and their interaction are not statistically significant, meaning there is no significant relationship between these variables and DeepNumHour.
 
@@ -165,14 +182,6 @@ ggplot(prelim_results, aes(x = Date, y = DeepNumHour, group = name, color = name
   theme(legend.position = "right")
 ```
 ```{r}
-prelim_results <- prelim_results %>%
-  group_by(name) %>%
-  mutate(participant_id = cur_group_id()) %>%
-  ungroup()
-
-participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jessica Chen", "DROP")
-prelim_results <- prelim_results %>%
-  filter(!name %in% participants_to_exclude)
 
 # steps faceted by participant
 ggplot(prelim_results, aes(x = Date, y = steps)) +

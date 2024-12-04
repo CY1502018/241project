@@ -21,6 +21,7 @@
         <entry key="file://$PROJECT_DIR$/Final Project Results.rmd">
           <value>
             <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Final-Project-Results.nb.html" />
               <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$" />
             </RMarkdownRenderProfile>
           </value>
