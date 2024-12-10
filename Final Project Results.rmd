@@ -220,3 +220,34 @@ ggplot(prelim_results, aes(x = steps, y = TotalNumHour)) +
        x = "Steps",
        y = "Total Sleep Hours") + theme_minimal()
 ```
+
+
+
+
+*** Notes from Dec05 office hour ***
+attrition vs. not attrition
+1st stage - did the treatment increase steps
+regress if you in were treatment
+2nd stage - did the steps increase sleep duration
+fitted values from 1st stage on the outcome of interest (sleep duration/sleep quality)
+AER (applied econometrics with R); function within is ivreg
+more complex modeling approach: use ‘plm’ https://cran.r-project.org/web/packages/plm/vignettes/A_plmPackage.html
+use ‘plm’ function
+within this function, there are arguments you can pass to get a iv panel model
+run models using outcome for sleep duration and the sleep quality rate
+caveat that quality is subjective and noisy because people are bad evaluators of their sleep
+more complicated short panel model
+prediction of steps based on treatment will be “too precise” because we have no variation within a subject; we need to “blow up” standard errors
+the point estimate will be correct but the standard errors will be too small
+panel linear model
+Approach:
+fit instrumental variables model first (ivreg) from AER
+standard errors too small
+check back-in with Alex once you do these two things
+then try doing the panel linear models
+option 3: fit regression using ivreg, then use bootstrapping
+Alex wants to know if treatment increases step and if treatment increases sleep
+2a and 2b from poster
+first step: plot data
+plot steps first, then duration; plot these side by side
+
