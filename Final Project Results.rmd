@@ -164,9 +164,9 @@ prelim_results <- prelim_results %>%
   filter(!name %in% participants_to_exclude)
 ggplot(prelim_results, aes(x = Date, y = steps, group = participant_id, color = treatment)) +
   geom_point() +
-  labs(title = "Steps Over Time by Treatment Week, Faceted by Treatment Condition",
+  labs(title = "Steps Over Time by Treatment Week, Faceted by Treatment Week",
        x = "Date",
-       y = "Steps (in thousands)") +
+       y = "Stepcount") +
       facet_wrap(~ study_week, scales = "free_y") +
        theme(legend.position = "bottom") +
   theme_minimal() +
