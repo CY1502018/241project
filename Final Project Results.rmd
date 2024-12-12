@@ -295,9 +295,9 @@ summary(treatment_model)
 # instrumental variables regression to regress sleep duration on fitted steps
 iv_model <- ivreg(TotalNumHour ~ fitted_steps | treatment, data = prelim_results)
 summary(iv_model)
-```
 
-### Linear regression on steps ~ treatment
+
+### Linear regression on steps ~ treatment ###
 
 - average number of steps for the control group (treatment = 0) is 6988.
 - treatment coefficient: The treatment group (treatment = 1) has an average of 1297.6 more steps than the control group.
@@ -305,14 +305,14 @@ summary(iv_model)
 - for R-squared test, our model is only able to explain 2.42% of the variance in steps, which is low....... (but we will have an explanation for this)
 - overall linear model on steps vs treatment is significant with a p-value of 0.048.
 
-### Instrumental variable regression with AER on total hours of sleep ~ (linear fitted_steps | treatment)
+### Instrumental variable regression with AER on total hours of sleep ~ (linear fitted_steps | treatment) ###
 
 - baseline sleep duration is 4.7 hours.
 - **fitted** steps coefficient: for each additional step predicted by the treatment, sleep duration increases by 0.000404 hours.
 - p-value for the fitted steps coefficient is 0.023- effect of steps on sleep duration is statistically significant at the usual 0.05 level.
 - as for R-squared, our model only explains 3.17% of the variance in total sleep hours
 
-### Overall
+### Overall ###
 - treatment significantly increases the number of steps (participants, clustered) by approximately 1297.6 steps.
 - increase in steps, as we see being impacted by the treatment, also significantly increases sleep duration, but the effect size is very small (0.000404 hours per step).
 Overall, we have statistically significant effects on both models, but the significance (effect size) is really small - our models could explain a very small portion of the variance in the dependent variables.
@@ -327,7 +327,7 @@ outcome_model <- lm(TotalNumHour ~ fitted_steps, data = prelim_results)
 summary(outcome_model)
 ```
 
-#### Instrumental Variables Regression (`ivreg`)
+#### Instrumental Variables Regression (`ivreg`) ####
 
 - we use the ivreg function to estimate the coefficients of a linear regression model when there are other dependent variables.
 - ivreg also looks at variables that are correlated with the dependent predictors but uncorrelated with errors.
