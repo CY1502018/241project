@@ -164,16 +164,39 @@ prelim_results <- prelim_results %>%
   filter(!name %in% participants_to_exclude)
 ggplot(prelim_results, aes(x = Date, y = steps, group = treatment, color = treatment)) +
   geom_point() +
-  geom_smooth(method = "lm", se = FALSE, color = "green") +
+  geom_smooth(method = "lm", se = FALSE) +
   labs(title = "Steps Over Time, Faceted by Treatment Week",
        x = "Date",
-       y = "Stepcount") +
+       y = "Step count") +
       facet_wrap(~ study_week, scales = "free_y") +
        theme(legend.position = "bottom") +
   theme_minimal() +
   theme(legend.position = "bottom")
 
 ```
+
+```{r}
+prelim_results$Date <- as.Date(prelim_results$activity_sleep_date, format = "%m/%d/%y")
+
+# steps line plot
+participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jessica Chen", "DROP")
+prelim_results <- prelim_results %>%
+  filter(!name %in% participants_to_exclude)
+ggplot(prelim_results, aes(x = Date, y = TotalNumHour, group = treatment, color = treatment)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Sleep Hours Over Time, Faceted by Treatment Week",
+       x = "Date",
+       y = "Total Hours of Sleep") +
+      facet_wrap(~ study_week, scales = "free_y") +
+       theme(legend.position = "bottom") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+```
+
+
+
 ```{r}
 # deep sleep line plot
 ggplot(prelim_results, aes(x = Date, y = steps, group = name, color = name)) +
@@ -307,9 +330,3 @@ summary(outcome_model)
 
 - we use the ivreg function to estimate the coefficients of a linear regression model when there are other dependent variables.
 - ivreg also looks at variables that are correlated with the dependent predictors but uncorrelated with errors.
-3. **Estimation**: The `ivreg` function uses these instruments to provide consistent estimates of the coefficients.
-
-
-```{r}
-
-```
