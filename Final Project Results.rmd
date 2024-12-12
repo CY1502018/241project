@@ -162,22 +162,24 @@ prelim_results$Date <- as.Date(prelim_results$activity_sleep_date, format = "%m/
 participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jessica Chen", "DROP")
 prelim_results <- prelim_results %>%
   filter(!name %in% participants_to_exclude)
-ggplot(prelim_results, aes(x = Date, y = steps, group = name, color = name)) +
-  geom_line() +
-  labs(title = "Steps Over Time by Participant",
+ggplot(prelim_results, aes(x = Date, y = steps, group = participant_id, color = treatment)) +
+  geom_point() +
+  labs(title = "Steps Over Time by Treatment Week, Faceted by Treatment Condition",
        x = "Date",
        y = "Steps (in thousands)") +
+      facet_wrap(~ study_week, scales = "free_y") +
+       theme(legend.position = "bottom") +
   theme_minimal() +
-  theme(legend.position = "right")
+  theme(legend.position = "bottom")
 
 ```
 ```{r}
 # deep sleep line plot
-ggplot(prelim_results, aes(x = Date, y = DeepNumHour, group = name, color = name)) +
+ggplot(prelim_results, aes(x = Date, y = steps, group = name, color = name)) +
   geom_line() +
-  labs(title = "Deep Sleep Hours Over Time by Participant",
+  labs(title = "Steps Over Time by Participant",
        x = "Date",
-       y = "Deep Sleep Hours") +
+       y = "Step Count") +
   theme_minimal() +
   theme(legend.position = "right")
 ```
@@ -227,10 +229,12 @@ ggplot(prelim_results, aes(x = steps, y = TotalNumHour)) +
 *** Notes from Dec05 office hour ***
 attrition vs. not attrition
 1st stage - did the treatment increase steps
-regress if you in were treatment
+regress if you were in treatment
 2nd stage - did the steps increase sleep duration
 fitted values from 1st stage on the outcome of interest (sleep duration/sleep quality)
-AER (applied econometrics with R); function within is ivreg
+AER (applied econometrics with R); function within is ivreg AND panel linear model
+
+Report bootstrap if available
 more complex modeling approach: use ‘plm’ https://cran.r-project.org/web/packages/plm/vignettes/A_plmPackage.html
 use ‘plm’ function
 within this function, there are arguments you can pass to get a iv panel model
@@ -250,4 +254,18 @@ Alex wants to know if treatment increases step and if treatment increases sleep
 2a and 2b from poster
 first step: plot data
 plot steps first, then duration; plot these side by side
+```{r}
+# fit a linear regression model to predict steps based on treatment
+treatment_model <- lm(steps ~ treatment, data = prelim_results)
+prelim_results$fitted_steps <- fitted(treatment_model)
 
+# regress the fitted steps
+treatment_model <- lm(steps ~ treatment, data = prelim_results)
+summary(treatment_model)
+```
+```{r}
+
+```
+```{r}
+
+```
