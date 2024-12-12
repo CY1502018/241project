@@ -59,7 +59,7 @@ prelim_results <- prelim_results %>%
 model1 <- lmer(DeepNumHour ~ steps + (1 | name), data = prelim_results )
 summary(model1)
 # fit the linear mixed-effects model to overall sleep hours
-model2 <- lmer(TotalNumHour ~ steps + (1 | name), data = prelim_results, control = check.scaleX)
+model2 <- lmer(TotalNumHour ~ steps + (1 | name), data = prelim_results)
 summary(model2)
 ```
 
@@ -279,6 +279,11 @@ Alex wants to know if treatment increases step and if treatment increases sleep
 first step: plot data
 plot steps first, then duration; plot these side by side
 ```{r}
+library(dplyr)
+library(AER)
+library(plm)
+```
+
 # fit a linear regression model to predict steps based on treatment
 treatment_model <- lm(steps ~ treatment, data = prelim_results)
 prelim_results$fitted_steps <- fitted(treatment_model)
@@ -313,10 +318,6 @@ summary(iv_model)
 Overall, we have statistically significant effects on both models, but the significance (effect size) is really small - our models could explain a very small portion of the variance in the dependent variables.
 
 ```{r}
-library(dplyr)
-library(AER)
-library(plm)
-
 # fit linear regression model to predict steps based on treatment
 treatment_model <- lm(steps ~ treatment, data = prelim_results)
 prelim_results$fitted_steps <- fitted(treatment_model)
