@@ -119,6 +119,8 @@ group_stats <- prelim_results %>%
   summarise(
     Mean_Steps = mean(steps, na.rm = TRUE),
     SD_Steps = sd(steps, na.rm = TRUE),
+    Mean_TotalNumHour = mean(TotalNumHour, na.rm = TRUE),
+    SD_TotalNumHour = sd(TotalNumHour, na.rm = TRUE),
     Mean_DeepNumHour = mean(DeepNumHour, na.rm = TRUE),
     SD_DeepNumHour = sd(DeepNumHour, na.rm = TRUE),
     Count = n()
