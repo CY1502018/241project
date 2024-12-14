@@ -14,6 +14,7 @@ library(janitor)
 library(tidyr)
 library(lme4)
 ```
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
 system.time(prelim_results <- read.csv("12022100_results.csv", header = TRUE))
 
@@ -25,6 +26,7 @@ prelim_results[prelim_results == ""] <- NA
 colnames(prelim_results)
 head(prelim_results)
 ```
+
 ```{r}
 prelim_results <- prelim_results %>%
   mutate(across(c(awake_hour, awake_min, rem_hour, rem_min, light_hour, light_min, deep_hour, deep_min), ~replace_na(., 0))) %>%
@@ -51,7 +53,6 @@ participants_to_exclude <- c("Clarissa Yang", "Zhigui Lee", "Neal Hughes", "Jess
 prelim_results <- prelim_results %>%
   filter(!name %in% participants_to_exclude)
 ```
-
 
 
 ```{r}
@@ -128,14 +129,16 @@ group_stats <- prelim_results %>%
 
 print(group_stats)
 ```
-```{r}
+
+```{r echo = FALSE, results = HIDE}
 # histogram of Steps
 ggplot(prelim_results, aes(x = steps)) +
   geom_histogram(binwidth = 1000, fill = "skyblue", color = "black") +
   labs(title = "Distribution of Steps", x = "Number of Steps", y = "Frequency") +
   theme_minimal()
 ```
-```{r}
+
+```{r echo = FALSE, results = HIDE}
 # density plot- deep sleep hours
 ggplot(prelim_results, aes(x = DeepNumHour)) +
   geom_density(fill = "skyblue") +
@@ -157,6 +160,7 @@ ggplot(prelim_results, aes(x = AwakeNumHour)) +
   labs(title = "Density of Awake Hours", x = "Awake Hours", y = "Density") +
   theme_minimal()
 ```
+
 ```{r}
 prelim_results$Date <- as.Date(prelim_results$activity_sleep_date, format = "%m/%d/%y")
 
@@ -176,11 +180,6 @@ ggplot(prelim_results, aes(x = Date, y = steps, group = treatment, color = treat
   theme(legend.position = "bottom")
 
 ```
-
-```{r}
-
-```
-
 
 
 ```{r}
@@ -259,6 +258,7 @@ ggplot(prelim_results, aes(x = steps, y = TotalNumHour)) +
 
 
 *** Notes from Dec05 office hour ***
+
 attrition vs. not attrition
 1st stage - did the treatment increase steps
 regress if you were in treatment
@@ -267,7 +267,7 @@ fitted values from 1st stage on the outcome of interest (sleep duration/sleep qu
 AER (applied econometrics with R); function within is ivreg AND panel linear model
 
 Report bootstrap if available
-more complex modeling approach: use ‘plm’ https://cran.r-project.org/web/packages/plm/vignettes/A_plmPackage.html
+more complex modeling approach: use ‘plm’
 use ‘plm’ function
 within this function, there are arguments you can pass to get a iv panel model
 run models using outcome for sleep duration and the sleep quality rate
@@ -286,12 +286,14 @@ Alex wants to know if treatment increases step and if treatment increases sleep
 2a and 2b from poster
 first step: plot data
 plot steps first, then duration; plot these side by side
-```{r}
+
+```{r echo = FALSE, results = HIDE}
 library(dplyr)
 library(AER)
 library(plm)
 ```
 
+```{r}
 # fit a linear regression model to predict steps based on treatment
 treatment_model <- lm(steps ~ treatment, data = prelim_results)
 prelim_results$fitted_steps <- fitted(treatment_model)
@@ -303,7 +305,7 @@ summary(treatment_model)
 # instrumental variables regression to regress sleep duration on fitted steps
 iv_model <- ivreg(TotalNumHour ~ fitted_steps | treatment, data = prelim_results)
 summary(iv_model)
-
+```
 
 ### Linear regression on steps ~ treatment ###
 
@@ -336,7 +338,7 @@ outcome_model <- lm(TotalNumHour ~ fitted_steps, data = prelim_results)
 summary(outcome_model)
 ```
 
-#### Instrumental Variables Regression (`ivreg`) ####
+#### Instrumental Variables Regression ivreg
 
 - we use the ivreg function to estimate the coefficients of a linear regression model when there are other dependent variables.
 - ivreg also looks at variables that are correlated with the dependent predictors but uncorrelated with errors.
