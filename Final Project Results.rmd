@@ -178,6 +178,12 @@ ggplot(prelim_results, aes(x = Date, y = steps, group = treatment, color = treat
 ```
 
 ```{r}
+
+```
+
+
+
+```{r}
 prelim_results$Date <- as.Date(prelim_results$activity_sleep_date, format = "%m/%d/%y")
 
 # steps line plot
@@ -321,6 +327,7 @@ Overall, we have statistically significant effects on both models, but the signi
 
 ```{r}
 # fit linear regression model to predict steps based on treatment
+# based if treatment is received, does ITT reflect in step counts
 treatment_model <- lm(steps ~ treatment, data = prelim_results)
 prelim_results$fitted_steps <- fitted(treatment_model)
 
